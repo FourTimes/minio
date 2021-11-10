@@ -1,0 +1,2 @@
+# minio
+installation of minio
