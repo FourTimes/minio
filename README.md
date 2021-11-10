@@ -43,4 +43,7 @@ spec:
 
 ```bash
 kubectl apply -f ingress.yml
+
+# port-forward
+kubectl port-forward -n minio-system svc/minio 9000:9000
 ```
